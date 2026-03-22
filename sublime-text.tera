@@ -3,7 +3,7 @@ whiskers:
     version: ^2.5.1
     matrix:
         - flavor
-    filename: "build/Catppuccin {{ flavor.identifier | capitalize }}.sublime-color-scheme"
+    filename: "build/Catppuccin {{ flavor.name }}.sublime-color-scheme"
     hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 {
